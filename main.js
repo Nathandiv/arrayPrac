@@ -1,8 +1,8 @@
-let Besket = [
-  ["Banana", "Apple", "Orange", "Mango", "Cherries"],
-  ["Nokia", "Blackberry", "Honor", "Iphone"],
-  ["HP", "MacBook", "MacBook", "Dell"],
-];
+// let Besket = [
+//   ["Banana", "Apple", "Orange", "Mango", "Cherries"],
+//   ["Nokia", "Blackberry", "Honor", "Iphone"],
+//   ["HP", "MacBook", "MacBook", "Dell"],
+// ];
 
 // Besket  [3] = 0;
 // console .log(Besket [2] [2]);
@@ -100,7 +100,6 @@ let Besket = [
 // people.me();
 // people.whatever();
 
-
 // using arrays and objects
 // const family = [
 //   {
@@ -115,8 +114,7 @@ let Besket = [
 
 // console.log(family[1])
 
-
-// using arrays, objects and Push (add) 
+// using arrays, objects and Push (add)
 // const family = [
 //     {
 //       name: "Jack",
@@ -131,7 +129,6 @@ let Besket = [
 //   family.push({name: "Gugu", Age: 26, gender: "Female"})
 
 //   console.log(family)
-
 
 // using arrays, objects and splice (deleting)
 // const family = [
@@ -149,5 +146,51 @@ let Besket = [
 
 //   console.log(family)
 
+const family = [
+  {
+    name: "Jack",
+    Age: 44,
+    gender: "male",
+    toString: function () {
+      return this.name;
+    },
+   
+  },
 
+  {
+    name: "Jade",
+    Age: 23,
+    gender: "male",
+    toString: function () {
+      return this.name;
+      
+    },
 
+  },
+  {
+    name: "tth",
+    Age: 20,
+    gender: "Female",
+    toString: function () {
+      return this.name;
+    }
+  
+  },
+  {
+    name: "kkk",
+    Age: 44,
+    gender: "male",
+    toString: function () {
+      return this.name;
+    }
+   
+  },
+];
+
+const result = family.join(" and ");
+console.log(result);
+console.log(family[0])
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+// console.log(fruits.join(" and " ))
