@@ -2,6 +2,8 @@ let Besket = [
 ['Banana','Apple','Orange','Mango','Cherries'],
 ['Nokia','Blackberry','Honor','Iphone'],
 ['HP','MacBook','MacBook','Dell']
-]
+];
 
-alert (Besket)
+
+Besket  [3] = 0;
+console .log(Besket [2] [2]);
