@@ -207,4 +207,14 @@
 
 // console.log(arrays[2][1]);
 
+let firstName = "Jade";
+let lastName = "Smith";
+
+let person = {
+  firstName : "Sarah",
+  lastName : "John",
+  Age :18,
+  fullName : function(){return person.firstName + "" + person.lastName}
+}
+console.log(person.fullName())
 
