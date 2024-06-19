@@ -146,51 +146,65 @@
 
 //   console.log(family)
 
-const family = [
-  {
-    name: "Jack",
-    Age: 44,
-    gender: "male",
-    toString: function () {
-      return this.name;
-    },
+// const family = [
+//   {
+//     name: "Jack",
+//     Age: 44,
+//     gender: "male",
+//     toString: function () {
+//       return this.name;
+//     },
    
-  },
+//   },
 
-  {
-    name: "Jade",
-    Age: 23,
-    gender: "male",
-    toString: function () {
-      return this.name;
+//   {
+//     name: "Jade",
+//     Age: 23,
+//     gender: "male",
+//     toString: function () {
+//       return this.name;
       
-    },
+//     },
 
-  },
-  {
-    name: "tth",
-    Age: 20,
-    gender: "Female",
-    toString: function () {
-      return this.name;
-    }
+//   },
+//   {
+//     name: "tth",
+//     Age: 20,
+//     gender: "Female",
+//     toString: function () {
+//       return this.name;
+//     }
   
-  },
-  {
-    name: "kkk",
-    Age: 44,
-    gender: "male",
-    toString: function () {
-      return this.name;
-    }
+//   },
+//   {
+//     name: "kkk",
+//     Age: 44,
+//     gender: "male",
+//     toString: function () {
+//       return this.name;
+//     }
    
-  },
-];
+//   },
+// ];
 
-const result = family.join(" and ");
-console.log(result);
-console.log(family[0])
+// const result = family.join(" and ");
+// console.log(result);
+// console.log(family[0])
 
 // const fruits = ["Banana", "Orange", "Apple", "Mango"];
 
 // console.log(fruits.join(" and " ))
+
+
+
+
+// let arrays = [
+//   [1,2,3,4],
+//   ['A','B','C','D'],
+//   ['1A','2B','3C','4D']
+// ]
+
+
+// console.log(arrays[2][1]);
+
+
